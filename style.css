@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(255, 238, 213);
+}
+
+img {
+    opacity: 0;
+}
+
+button {
+    background-color: powderblue;
+    border: none;
+    border-radius: .7rem;
+    position: absolute;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 500;
+    left: 41.5%;
+    top: 40%;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.tile>img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.tile:hover {
+    transition-duration: 300ms;
+    transform: scale(1.1);
+}
+
+.tile:hover>img {
+    opacity: 1;
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}
+
+.tile {
+    opacity: 0;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.tile:nth-child(1) {
+    background-color: #fab5b1;
+    width: 15%;
+    left: 5%;
+    top: 5%;
+}
+
+.tile:nth-child(2) {
+    background-color: #ac83a6;
+    width: 15%;
+    left: 80%;
+    top: 55%;
+}
+
+.tile:nth-child(3) {
+    background-color: #f8cbdb;
+    width: 15%;
+    left: 25%;
+    top: 15%;
+}
+
+.tile:nth-child(4) {
+    background-color: #add0a5;
+    width: 15%;
+    left: 25%;
+    top: 65%;
+}
+
+.tile:nth-child(5) {
+    background-color: #d6caa4;
+    width: 15%;
+    left: 80%;
+    top: 5%;
+}
+
+.tile:nth-child(6) {
+    background-color: #d99999;
+    width: 15%;
+    left: 60%;
+    top: 65%;
+}
+
+.tile:nth-child(7) {
+    background-color: #e0e2a8;
+    width: 15%;
+    left: 5%;
+    top: 55%;
+}
+
+.tile:nth-child(8) {
+    background-color: #94a894;
+    width: 15%;
+    left: 60%;
+    top: 15%;
+}
